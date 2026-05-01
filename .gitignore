@@ -157,3 +157,12 @@ coverage/
 
 frontend/dist/
 frontend/build/
+
+node_modules/
+backend/node_modules/
+backend/data/
+.env
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
