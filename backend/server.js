@@ -28,7 +28,9 @@ app.get('*', (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 initDB().then(() => {
-  app.listen(PORT, () => console.log(`🚀 TaskFlow running on http://localhost:${PORT}`));
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 TaskFlow running on port ${PORT}`);
+  });
 }).catch(err => {
   console.error('Failed to initialize DB:', err);
   process.exit(1);
