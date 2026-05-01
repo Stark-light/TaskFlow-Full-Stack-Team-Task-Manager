@@ -1,0 +1,13 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "Team Task Manager - Full Stack App",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "install": "cd backend && npm install",
+    "build": "echo 'No build step needed'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
