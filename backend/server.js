@@ -25,7 +25,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(frontendPath, 'index.html'));
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 initDB().then(() => {
   app.listen(PORT, '0.0.0.0', () => {
