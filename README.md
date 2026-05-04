@@ -4,6 +4,55 @@ A full-stack task management system designed for teams to collaborate efficientl
 
 ---
 
+## 📸 Implementation
+
+### 📊 Dashboard Overview
+
+<p align="center">
+  <img src="./images/dashboard.png" width="900"/>
+</p>
+
+The dashboard provides a quick summary of the system:
+
+- **Total Users** → Number of team members in the workspace  
+- **Total Projects** → Active projects being managed  
+- **Total Tasks** → Tasks created across all projects  
+- **Overdue** → Tasks that require immediate attention  
+
+**Task Status Section:**
+- **To Do** → Tasks not started yet  
+- **In Progress** → Tasks currently being worked on  
+- **Review** → Tasks pending approval or verification  
+- **Done** → Completed tasks  
+
+**Priority Breakdown:**
+- Displays tasks grouped by priority level (Low, Medium, High)
+
+---
+
+### 👥 Team Management
+
+<p align="center">
+  <img src="./images/team.png" width="900"/>
+</p>
+
+The Team page allows admins to manage users and roles:
+
+- **Admin Role**  
+  - Full access to projects, tasks, and team management  
+  - Can promote or demote members  
+
+- **Member Role**  
+  - Can create and manage their own tasks  
+  - Can participate in assigned projects  
+
+**Actions Available:**
+- **Promote** → Upgrade a member to admin  
+- **Demote** → Change admin to member  
+- **Remove** → Delete user from the team  
+
+---
+
 ## 🔹 Features
 
 * 🔐 JWT-based Authentication (Signup/Login)
